@@ -29,10 +29,11 @@
       .left-column{grid-column:1;grid-row:1}.right-column{grid-column:2;grid-row:1;columns:auto}.middle-column{grid-column:1/-1;grid-row:2}
       .identity{grid-template-columns:180px minmax(230px,1fr)}
     }
+      .all-publications{border-top:2px solid var(--rule);padding:32px 8px 18px;max-width:1200px}.all-publications h2{color:var(--heading);font-size:clamp(1.8rem,2.3vw,2.8rem);margin:0 0 10px}.all-publications h3{color:var(--heading);margin:28px 0 10px}.all-publications li{margin-bottom:.8em;padding-left:.3em}
   </style>
 </head>
 <body>
-<main class="site">
+<main class="site" id="top">
   <!-- EDIT: Change this title to your specialty or research group -->
   <header class="title-bar"><h1>Materials at the Edge</h1></header>
   <div class="columns">
@@ -65,15 +66,48 @@
       <section><h2>Students</h2><p><a href="#">Current group members</a> | <a href="#">Alumni</a> | <a href="#">Open positions</a></p></section>
     </div>
     <div class="right-column">
-      <section><h2>Selected Publications <small>[<a href="#">more</a>] [<a href="#">google</a>] [<a href="#">orcid</a>]</small></h2><div class="publication-list">
-        <!-- EDIT: Duplicate or remove article blocks as needed -->
-        <article><p>Your Name, Collaborator One, and Collaborator Two, “A descriptive title for your most recent research paper,” <em>Journal or Conference Name, 42, 100–120 (2026).</em></p><p class="paper-links">[<a href="#">PDF</a>] [<a href="#">DOI</a>] [<a href="#">Code</a>]</p></article>
-        <article><p>Collaborator One and Your Name, “Another important contribution to your field,” <em>Journal or Conference Name, 18, 210–229 (2025).</em></p><p class="paper-links">[<a href="#">PDF</a>] [<a href="#">DOI</a>] [<a href="#">Code</a>]</p></article>
-        <article><p>Your Name et al., “A foundational study with a clear, informative title,” <em>Journal or Conference Name, 7, 50–68 (2024).</em></p><p class="paper-links">[<a href="#">PDF</a>] [<a href="#">DOI</a>] [<a href="#">Code</a>]</p></article>
+      <section><h2>Selected Publications</h2><div class="publication-list">
+        <article><p><strong>D. H. Cook*</strong>, P. Kumar*, M. I. Payne, C. H. Belcher, P. Borges, W. Wang, F. Walsh, Z. Li, A. Devaraj, M. Zhang, M. Asta, A. M. Minor, E. J. Lavernia, D. Apelian, and R. O. Ritchie, “Kink bands promote exceptional fracture resistance in a NbTaTiHf refractory medium-entropy alloy,” <em>Science 384, 178–184 (2024).</em></p></article>
+        <article><p>P. Kumar*, S. Huang*, <strong>D. H. Cook*</strong>, K. Chen, U. Ramamurty, X. Tan, and R. O. Ritchie, “A strong fracture-resistant high-entropy alloy with nano-bridged honeycomb microstructure intrinsically toughened by 3D printing,” <em>Nature Communications 15, 841 (2024).</em></p></article>
+        <article><p>W. Wang, <strong>D. H. Cook</strong>, X. Chen, P. Kumar, A. M. Minor, S. Rao, M. Asta, R. O. Ritchie, and D. Farkas, “Extended Rice–Thomson analysis and atomistic simulations revealing grain boundary effects on fracture in refractory high-entropy alloys,” <em>PNAS, in press (2026).</em></p></article>
+        <p><small>*Equally contributing authors.</small></p>
+        <p><a href="#all-publications">View all publications ↓</a></p>
       </div></section>
       <section><h2>Recent News</h2><p><strong>June 2026:</strong> Add your newest paper, award, talk, or group announcement.</p><p><strong>February 2026:</strong> Add another short update here.</p></section>
     </div>
   </div>
+  <section id="all-publications" class="all-publications">
+    <h2>All Publications</h2>
+    <p><small>*Equally contributing authors. Listed as presented in the CV.</small></p>
+    <h3>Published and In Press</h3>
+    <ol>
+      <li>W. Wang, <strong>D. H. Cook</strong>, X. Chen, P. Kumar, A. M. Minor, S. Rao, M. Asta, R. O. Ritchie, and D. Farkas, “Extended Rice–Thomson analysis and atomistic simulations revealing grain boundary effects on fracture in refractory high-entropy alloys,” <em>PNAS, in press (2026).</em></li>
+      <li>X. Xu, P. Kumar, <strong>D. H. Cook</strong>, B. Wang, Q. Ye, Y. Chu, Y. Tian, Y. Li, and R. O. Ritchie, “Inverse temperature-dependent toughness and exceptional damage-tolerance in a plain bcc steel,” <em>Materials Today 95, 103279 (2026).</em></li>
+      <li>S. I. Rao, W. Wang, <strong>D. H. Cook</strong>, P. Kumar, M. Asta, and R. O. Ritchie, “A simple Rice-Ashby ductile-brittle transition temperature (DBTT) model based on dislocation mobility for body-centered cubic complex concentrated alloys,” <em>Materials and Design 265, 115835 (2026).</em></li>
+      <li>W. Wang, A. Abu-Odeh, <strong>D. H. Cook</strong>, R. O. Ritchie, M. Asta, and S. I. Rao, “A theoretical study of solid solution strengthening in the refractory medium-entropy alloy Nb45Ta25Ti15Hf15,” <em>Materials and Design 261, 115368 (2026).</em></li>
+      <li>W. Wang, P. Kumar, <strong>D. H. Cook</strong>, F. Walsh, B. Zhang, P. Borges, D. Farkas, R. O. Ritchie, and M. Asta, “Ductility mechanisms in complex concentrated refractory alloys from atomistic fracture simulations,” <em>NPJ Computational Materials 11, 330 (2025).</em></li>
+      <li>G. Yuan, <strong>D. H. Cook</strong>, H. Barnard, E. Lahoda, P. Xu, R. O. Ritchie, and D. Liu, “Improved damage tolerance of SiC-based nuclear fuel cladding with novel multi-layered SiC coating design at 1200°C,” <em>Materials &amp; Design 256, 114260 (2025).</em></li>
+      <li>G. Yuan, M. Sevecek, <strong>D. H. Cook</strong>, D. Parkinson, R. O. Ritchie, and D. Liu, “Investigation of the temperature-dependent failure processes in PVD Cr-coated ZIRLO nuclear fuel cladding using in situ X-ray micro-tomography imaging,” <em>Surface and Coatings Technology 512, 132376 (2025).</em></li>
+      <li>P. Kumar, <strong>D. H. Cook</strong>, W. Wang, M. Payne, P. Borges, A. M. Minor, M. Asta, and R. O. Ritchie, “Fracture behavior of high-entropy alloys: resistance to fracture from strain hardening and softening,” <em>Matter 8 (2025).</em></li>
+      <li>C. E. Slone, V. Mazánová, P. Kumar, <strong>D. H. Cook</strong>, M. Heczko, Q. Yu, B. Crossman, E. P. George, M. J. Mills, and R. O. Ritchie, “Partially recrystallized microstructures expand the strength-toughness envelope of CrCoNi medium-entropy alloy,” <em>Communications Materials 5, 1–10 (2024).</em></li>
+      <li><strong>D. H. Cook*</strong>, P. Kumar*, M. I. Payne, C. H. Belcher, P. Borges, W. Wang, F. Walsh, Z. Li, A. Devaraj, M. Zhang, M. Asta, A. M. Minor, E. J. Lavernia, D. Apelian, and R. O. Ritchie, “Kink bands promote exceptional fracture resistance in a NbTaTiHf refractory medium-entropy alloy,” <em>Science 384, 178–184 (2024).</em></li>
+      <li>P. Kumar*, X. Gou*, <strong>D. H. Cook</strong>, M. I. Payne, N. J. Morrison, W. Wang, M. Zhang, M. Asta, A. M. Minor, R. Cao, Y. Li, and R. O. Ritchie, “Degradation of the mechanical properties of NbMoTaW refractory high-entropy alloy in tension,” <em>Acta Materialia 279, 120297 (2024).</em></li>
+      <li>P. Kumar*, S. Huang*, <strong>D. H. Cook*</strong>, K. Chen, U. Ramamurty, X. Tan, and R. O. Ritchie, “A strong fracture-resistant high-entropy alloy with nano-bridged honeycomb microstructure intrinsically toughened by 3D printing,” <em>Nature Communications 15, 841 (2024).</em></li>
+      <li>P. Kumar*, M. Michalek*, <strong>D. H. Cook</strong>, H. Sheng, K. B. Lau, P. Wang, M. Zhang, A. M. Minor, U. Ramamurty, and R. O. Ritchie, “On the strength and fracture toughness of an additive manufactured CrCoNi medium-entropy alloy,” <em>Acta Materialia 258, 119249 (2023).</em></li>
+    </ol>
+    <h3>Under Review</h3>
+    <ol start="14"><li><strong>D. H. Cook</strong>, X. Chen, M. O’Leary, S. I. Rao, W. Wang, C. H. Belcher, M. I. Payne, P. Borges, A. Devaraj, M. Asta, E. J. Lavernia, D. Apelian, A. M. Minor, D. Liu, P. Kumar, and R. O. Ritchie, “Divergent deformation pathways inhibit the ductile-brittle transition in a refractory medium-entropy alloy,” <em>Nature (under review).</em></li></ol>
+    <h3>In Preparation</h3>
+    <ol>
+      <li><strong>D. H. Cook</strong>, A. Jayadeep, X. Chen, M. Kirka, P. Kumar, and R. O. Ritchie, “On the fracture resistance of electron beam melted tungsten at ambient and high temperatures.”</li>
+      <li><strong>D. H. Cook</strong>, A. Huang, A. Fahmy, P. Kumar, E. J. Lavernia, and R. O. Ritchie, “Effects of kink bands on fatigue crack propagation in medium-entropy NbTaTiHf.”</li>
+      <li><strong>D. H. Cook</strong>, X. Chen, C. Belcher, W. Wang, S. Tavares, P. Kumar, M. Asta, M. Meyers, D. Apelian, A. M. Minor, and R. O. Ritchie, “Deformation and failure of NbTaTiHf refractory medium-entropy alloy under extreme shock loading.”</li>
+      <li><strong>D. H. Cook</strong>, X. Chen, A. M. Minor, and R. O. Ritchie, “Stress-state affects dislocation character in dilute and concentrated body-centered cubic alloys.”</li>
+      <li>X. Chen, W. Wang, <strong>D. H. Cook</strong>, M. Payne, R. O. Ritchie, M. Asta, and A. M. Minor, “Structure and evolution of kink band boundaries with deformation.”</li>
+      <li>P. Kumar, <strong>D. H. Cook</strong>, X. Chen, K. Masanobu, T. Toshihiro, K. Ryosuke, P. Sofronis, and R. O. Ritchie, “Mechanisms of hydrogen embrittlement in medium-entropy CoNiV.”</li>
+    </ol>
+    <p><a href="#top">Back to top ↑</a></p>
+  </section>
   <footer><span>Last updated July 2026</span><span>© Your Name</span></footer>
 </main>
 </body>
